@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `${PROJECT_ID}.pjabdulrahman_silver.silver_accounts` (account_id INT64,customer_id INT64,branch_id INT64,account_type_id INT64,sort_code STRING,open_date DATE,close_date DATE,status STRING,current_balance NUMERIC,currency STRING,batch_id STRING,processed_at TIMESTAMP);

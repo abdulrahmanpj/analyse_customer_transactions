@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `${PROJECT_ID}.pjabdulrahman_gold.dim_account` (account_sk STRING,account_id INT64,customer_id INT64,branch_id INT64,account_type_id INT64,sort_code STRING,open_date DATE,close_date DATE,status STRING,current_balance NUMERIC,currency STRING,effective_from TIMESTAMP,effective_to TIMESTAMP,current_record_flag BOOL,batch_id STRING);

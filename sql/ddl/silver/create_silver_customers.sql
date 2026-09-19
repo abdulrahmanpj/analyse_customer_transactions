@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `${PROJECT_ID}.pjabdulrahman_silver.silver_customers` (customer_id INT64,first_name STRING,last_name STRING,email STRING,phone STRING,address_line_1 STRING,customer_segment STRING,kyc_status STRING,batch_id STRING,processed_at TIMESTAMP);

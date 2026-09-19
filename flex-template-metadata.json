@@ -1,0 +1,1 @@
+{"name":"customer-transaction-interleaved-ingestion","description":"Parse BankEvalDB HDR/FTR files and load Bronze","parameters":[{"name":"input_uri","label":"GCS source URI","helpText":"gs:// object URI"},{"name":"batch_id","label":"Batch ID"},{"name":"bronze_dataset","label":"Bronze dataset"}]}

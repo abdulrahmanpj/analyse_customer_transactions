@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `${PROJECT_ID}.pjabdulrahman_gold.dim_customer` (customer_sk STRING,customer_id INT64,first_name STRING,last_name STRING,email STRING,phone STRING,address_line_1 STRING,customer_segment STRING,kyc_status STRING,effective_from TIMESTAMP,effective_to TIMESTAMP,current_record_flag BOOL,batch_id STRING);

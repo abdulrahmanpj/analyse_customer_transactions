@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `${PROJECT_ID}.pjabdulrahman_gold.fact_transaction` (transaction_id INT64,account_id INT64,customer_id INT64,transaction_datetime TIMESTAMP,amount NUMERIC,currency STRING,channel STRING,batch_id STRING) PARTITION BY DATE(transaction_datetime);

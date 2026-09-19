@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `${PROJECT_ID}.pjabdulrahman_bronze.bronze_customers` (entity_name STRING,batch_id STRING,source_file STRING,record_number INT64,raw_record STRING,payload JSON,ingested_at TIMESTAMP);

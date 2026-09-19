@@ -1,0 +1,11 @@
+entities:
+  BRANCHES: {expected_columns: 7, business_key: BranchID}
+  EMPLOYEES: {expected_columns: 7, business_key: EmployeeID}
+  CUSTOMERS: {expected_columns: 14, business_key: CustomerID}
+  ACCOUNTTYPES: {expected_columns: 5, business_key: AccountTypeID}
+  ACCOUNTS: {expected_columns: 11, business_key: AccountID}
+  CARDS: {expected_columns: 7, business_key: CardID}
+  TRANSACTIONTYPES: {expected_columns: 3, business_key: TransactionTypeID}
+  TRANSACTIONS: {expected_columns: 11, business_key: TransactionID}
+  LOANS: {expected_columns: 9, business_key: LoanID}
+  LOANPAYMENTS: {expected_columns: 7, business_key: PaymentID}
